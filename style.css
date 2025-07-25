@@ -1,0 +1,25 @@
+body{
+    /* background-color: black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.subBody{
+    display: flex;
+}
+#hed{
+    background-color: rgb(146, 32, 32);
+    height: 4rem;
+}
+.left{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 30vw;
+    
+}
+.right{
+    background-color: rgb(43, 226, 226);
+    height: 100vh;
+    width: 70vw;
+}
