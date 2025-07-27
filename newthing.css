@@ -1,0 +1,84 @@
+/* #space{
+    height: 500px;
+}
+.scroll-container {
+    height: 200px; /* or whatever height you need 
+    width: 300px;
+    overflow-y: auto; /* enables vertical scrolling 
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+
+   .scroll-container::-webkit-scrollbar {
+    width: 800px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #920000; 
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #555555; 
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #f50707;
+  } 
+
+  
+  
+  .scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2a2a2a;
+  }
+   */
+
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  /* Scroll container */
+  .scroll-container {
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid #444;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+  }
+  
+  /* Force content to overflow */
+  .content p {
+    margin-bottom: 20px;
+  }
+  
+  /* Scrollbar Styles */
+  .scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #2a2a2a;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+  }
+  
